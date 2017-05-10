@@ -39,10 +39,10 @@ namespace MailApp
                     Body = new ItemBody
                     {
                         Content = bodyContent,
-                        ContentType = BodyType.Html,
+                        ContentType = BodyType.Html
                     },
                     Subject = subject,
-                    ToRecipients = recipientList,
+                    ToRecipients = recipientList
                 };
 
                 // TODO: Call Microsoft Graph to send an email and save a copy in the Sent Items folder.
