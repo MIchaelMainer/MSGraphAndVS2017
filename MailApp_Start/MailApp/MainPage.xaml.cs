@@ -136,7 +136,7 @@ namespace MailApp
             MailButton.IsEnabled = false;
             EmailAddressBox.IsEnabled = false;
             ConnectButton.Visibility = Visibility.Visible;
-            InfoText.Text = ResourceLoader.GetForCurrentView().GetString("ConnectPrompt");
+            InfoText.Text = "Disconnect";
             this._displayName = null;
             this._mailAddress = null;
         }
