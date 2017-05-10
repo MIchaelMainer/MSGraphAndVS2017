@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Graph;
@@ -34,7 +34,7 @@ namespace MailApp
                 // TODO: Get an authenticated GraphServiceClient.
 
 
-                var email = new Message
+                var email = new Message()
                 {
                     Body = new ItemBody
                     {
